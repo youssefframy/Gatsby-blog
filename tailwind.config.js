@@ -13,6 +13,8 @@ module.exports = {
       colors: {
         mainWhite: '#f5f5f5',
         mainBlack: '#121212',
+        mainGray: '#9ca3af',
+        mainPurple: '#745488',
       },
     },
   },
