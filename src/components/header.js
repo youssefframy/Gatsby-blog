@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) =>{
 
   return(
     <header className="flex justify-between items-center py-4 px-8 md:px-16 lg:px-28 text-3xl md:text-4xl lg:text-5xl font-semibold">
-      <Link className="font-Nothing cursor-pointer">
+      <Link to='/' className="font-Nothing cursor-pointer">
         {siteTitle}
       </Link>
         {

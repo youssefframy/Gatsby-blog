@@ -32,7 +32,33 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`,
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                h1: 'text-4xl font-bold',
+                h2: 'text-3xl font-bold',
+                h3: 'text-2xl font-bold',
+                h4: 'text-xl font-bold',
+                h5: 'text-lg font-bold',
+                h6: 'text-base font-bold',
+                p: 'text-base',
+                a: 'text-[#9ca3af] hover:text-[#745488]',
+                li: 'text-base',
+                blockquote: 'text-base',
+                table: 'text-base',
+                tr: 'text-base',
+                th: 'text-base',
+                td: 'text-base',
+              },
+            },
+      }],
+    },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

@@ -8,7 +8,6 @@ date: "January 20, 2023"
 ```powershell
 npx gatsby new gatsby-blog
 ```
----
 
 #### Intialize gatsby-config.js to add tailwindcss
 ```tsx
@@ -18,7 +17,6 @@ plugins: [
 ]
 ```
 
----
 
 #### Gatsby Pages
 You can add whatever pages you want in the pages folder and `gatsby` automaticly adds it to their routes, And this how the pages Looks like.
@@ -42,7 +40,6 @@ export const Head = () => <Seo title="Page two" />
 export default SecondPage
 ```
 
----
 #### Not Found Page
 What ever is inside of **404.js** file will be displayed if a page does not exist in the production version.
 ```jsx
@@ -63,11 +60,9 @@ export const Head = () => <Seo title="404: Not Found" />
 export default NotFoundPage
 ```
 
----
 #### Why do we wrap everything in a header component ?
 This is to Render the header and the footer in every single component, and this is because of that static generated websites needs to generate static **HTML** for ever single page.
 
----
 #### useStaticQuery Hook
 This gatsby custom hook is to extract the value of whatever query you are making with GraphQL.
 ```jsx
@@ -82,7 +77,6 @@ This gatsby custom hook is to extract the value of whatever query you are making
   `)
 ```
 
----
 #### SiteMetadata
 It contains title, description, and author by default.
 ```js
@@ -94,7 +88,6 @@ It contains title, description, and author by default.
   },
 ```
 
----
 ## Gatsby GraphQL + Markdown
 
 
@@ -120,7 +113,6 @@ description: ""
 -- -
 ```
 
----
 
 #### Adding `gatsby-transformer-remark` package
 What this package does is to transform our markdown files into `HTML` and the header wrapped with '---' into meta description.
