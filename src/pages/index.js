@@ -16,7 +16,7 @@ export default ({ data }) => (
       {
         data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id} className="flex flex-col justify-start items-start gap-2 mb-8 lg:mb-16 overflow-auto">
-            <Link to={node.frontmatter.path}>
+            <Link to={node.fields.slug}>
               <h3 className="text-2xl md:text-4xl dark:text-mainPurple font-bold cursor-pointer">
                 {node.frontmatter.title}
               </h3>
@@ -33,7 +33,7 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount
       edges {
         node {
@@ -41,6 +41,9 @@ export const query = graphql`
           frontmatter {
             date
             title
+          }
+          fields {
+            slug
           }
           excerpt
         }
