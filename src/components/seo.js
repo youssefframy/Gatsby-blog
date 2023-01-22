@@ -13,7 +13,7 @@ function Seo({ description, title, children }) {
     graphql`
       query {
         site {
-          siteMetadata {
+          siteMetadata { 
             title
             description
             author
