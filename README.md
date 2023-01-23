@@ -1,4 +1,4 @@
-## What is Gatsby ?
+# What is Gatsby ?
 Gatsby is framework that is written with **React** which combines some of the best React ecosystem libraries into one bundle.
 
 ## When we should use Gatsby?
