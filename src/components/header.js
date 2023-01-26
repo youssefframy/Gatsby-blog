@@ -2,10 +2,12 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) =>{
-  const theme = this.window.localStorage.getItem('theme') === 'dark';
 
-  const [darkMode, setDarkMode] = React.useState(theme);
+  const [darkMode, setDarkMode] = React.useState(true);
 
+  if(typeof window !== 'undefined'){
+    setDarkMode(window.localStorage.getItem('theme') === 'dark');
+  }
 
   React.useEffect(() => {
     if (darkMode) {
