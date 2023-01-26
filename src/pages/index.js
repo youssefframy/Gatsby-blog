@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 export default ({ data }) => (
   <Layout>
     <Seo title="Home" />
-    <div>
+    <div className="not-prose">
       <div className="flex flex-col justify-start items-start gap-2 mb-4">
         <h1 className="text-3xl">Topics</h1>
         <h4 className="lg:text-xl">{data.allMarkdownRemark.totalCount} Posts</h4>

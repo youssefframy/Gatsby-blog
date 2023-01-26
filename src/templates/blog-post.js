@@ -4,12 +4,10 @@ import Layout from '../components/layout';
 
 export default ({ data }) => {
     const post = data.markdownRemark;
+
     return (
         <Layout>
-        <div>
-            <h1>{post.frontmatter.title}</h1>
-            <div className='prose lg:prose-xl' dangerouslySetInnerHTML={{ __html: post.html }} />
-        </div>
+            <article dangerouslySetInnerHTML={{ __html: post.html }} />
         </Layout>
     );
 }

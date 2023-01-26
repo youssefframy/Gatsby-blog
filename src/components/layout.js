@@ -18,11 +18,11 @@ const Layout = ({ children }) => {
     <div className="dark:bg-mainBlack dark:text-white">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div className="py-4 px-8 md:px-16 lg:px-28">
-        <main>
+        <main className="container">
           {children}
         </main>
         <hr className="w-full my-4 md:12"/>
-        <footer className="lg:text-lg font-semibold">
+        <footer className="lg:text-lg font-semibold pb-12">
           © {new Date().getFullYear()}, Created by Y. R
         </footer>
       </div>

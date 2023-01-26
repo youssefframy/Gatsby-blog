@@ -9,3 +9,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* No scroll bar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+@layer components{
+    .container {
+        @apply max-w-none pb-12 prose prose-lg md:prose-xl lg:prose-2xl dark:prose-invert prose-pre:w-2/3 prose-pre:whitespace-pre-wrap;
+    }
+}
