@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) =>{
-  const [darkMode, setDarkMode] = React.useState(window.matchMedia('(prefers-color-scheme: dark)').matches);
+  const [darkMode, setDarkMode] = React.useState('dark');
 
   React.useEffect(() => {
     if (darkMode) {
