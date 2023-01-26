@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) =>{
-  const theme = window.localStorage.getItem('theme') === 'dark';
+  const theme = this.window.localStorage.getItem('theme') === 'dark';
 
   const [darkMode, setDarkMode] = React.useState(theme);
 
