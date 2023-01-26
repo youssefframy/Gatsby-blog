@@ -11,7 +11,6 @@
     "gatsby-plugin-sharp": "^5.4.0",
     "gatsby-remark-classes": "^0.1.2",
     "gatsby-remark-prismjs": "^7.5.0",
-    "gatsby-remark-prismjs-copy-button": "^0.3.1",
     "gatsby-source-filesystem": "^5.4.0",
     "gatsby-transformer-remark": "^6.5.0",
     "gatsby-transformer-sharp": "^5.4.0",
