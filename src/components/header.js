@@ -2,7 +2,16 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) =>{
-  const [darkMode, setDarkMode] = React.useState('dark');
+  const [darkMode, setDarkMode] = React.useState();
+
+  React.useEffect(() => {
+    const theme = window.localStorage.getItem('theme');
+    if (theme === 'dark') {
+      setDarkMode(true);
+    } else {
+      setDarkMode(false);
+    }
+  }, []);
 
   React.useEffect(() => {
     if (darkMode) {
@@ -15,7 +24,7 @@ const Header = ({ siteTitle }) =>{
   }, [darkMode]);
 
   return(
-    <header className="flex justify-between items-center py-4 px-8 md:px-16 lg:px-28 text-3xl md:text-4xl lg:text-5xl font-semibold">
+    <header className="flex justify-between items-center pt-4 px-4 md:px-16 lg:px-24 text-3xl md:text-4xl lg:text-5xl font-semibold">
       <Link to='/' className="font-Nothing cursor-pointer">
         {siteTitle}
       </Link>
