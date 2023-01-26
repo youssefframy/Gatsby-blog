@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+code, code > * {
+    white-space: pre-wrap;
+}
+
 /* No scroll bar */
 ::-webkit-scrollbar {
     display: none;
@@ -17,6 +21,9 @@
 
 @layer components{
     .container {
-        @apply max-w-none pb-12 prose prose-lg md:prose-xl lg:prose-2xl dark:prose-invert prose-pre:w-2/3 prose-pre:whitespace-pre-wrap;
+        @apply max-w-none min-h-screen -mt-12 pb-12 prose prose-lg prose-slate 
+        prose-strong:text-mainPurple prose-strong:font-bold prose-strong:italic
+        md:prose-xl lg:prose-2xl dark:prose-invert 
+        lg:prose-pre:w-2/3 lg:prose-table:w-1/3 ;
     }
 }
