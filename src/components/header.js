@@ -2,17 +2,17 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) =>{
-  const [darkMode, setDarkMode] = React.useState(typeof window !== 'undefined' && window.localStorage.getItem('theme') === 'dark' ? true : false);
+  const [darkMode, setDarkMode] = React.useState(typeof window !== 'undefined' && window.localStorage.getItem('theme') === 'dark');
 
   React.useEffect(() => {
-    setDarkMode(window.localStorage.getItem('theme') === 'dark' ? true : false);
+    setDarkMode(window.localStorage.getItem('theme') === 'dark');
   }, []) ;
   
   React.useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add('dark');
       window.localStorage.setItem('theme', 'dark');
-    } else if (!darkMode) {
+    } else {
       document.documentElement.classList.remove('dark');
       window.localStorage.setItem('theme', 'light');
     }
