@@ -18,6 +18,10 @@ const Header = ({ siteTitle }) =>{
     }
   }, [darkMode]);
 
+  console.log({darkMode})
+
+  console.log(darkMode !== 'undefined')
+  console.log(darkMode !== 'undefined' && darkMode)
 
   return(
     <header className="flex justify-between items-center pt-4 px-4 md:px-16 lg:px-24 text-3xl md:text-4xl lg:text-5xl font-semibold">
