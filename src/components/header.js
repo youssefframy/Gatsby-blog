@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) =>{
         {siteTitle}
       </Link>
         {
-          darkMode
+          darkMode !== 'undefined' && darkMode
           ? <img
               onClick={() => setDarkMode(false)}
               className="cursor-pointer w-16 h-16 md:w-24 lg:h-24"
