@@ -18,10 +18,7 @@ const Header = ({ siteTitle }) =>{
     }
   }, [darkMode]);
 
-  console.log({darkMode})
-
-  console.log(darkMode !== 'undefined')
-  console.log(darkMode !== 'undefined' && darkMode)
+  console.log(typeof window)
 
   return(
     <header className="flex justify-between items-center pt-4 px-4 md:px-16 lg:px-24 text-3xl md:text-4xl lg:text-5xl font-semibold">
@@ -29,7 +26,7 @@ const Header = ({ siteTitle }) =>{
         {siteTitle}
       </Link>
         {
-          darkMode !== 'undefined' && darkMode
+          typeof window !== 'undefined' && darkMode
           ? <img
               onClick={() => setDarkMode(false)}
               className="cursor-pointer w-16 h-16 md:w-24 lg:h-24"
