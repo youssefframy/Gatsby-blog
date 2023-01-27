@@ -6,9 +6,6 @@ const Header = ({ siteTitle }) =>{
 
   React.useEffect(() => {
     setDarkMode(window.localStorage.getItem('theme') === 'dark' ? true : false);
-    console.log(typeof window === undefined)
-    console.log(typeof window === 'undefined')
-    console.log(typeof window !== 'undefined' && darkMode)
   }, []) ;
   
   React.useEffect(() => {
@@ -21,21 +18,11 @@ const Header = ({ siteTitle }) =>{
     }
   }, [darkMode]);
   
-  console.log(typeof window === undefined)
-  console.log(typeof window === 'undefined')
-  console.log(typeof window !== 'undefined' && darkMode)
-
-
   return(
     <header className="flex justify-between items-center pt-4 px-4 md:px-16 lg:px-24 text-3xl md:text-4xl lg:text-5xl font-semibold">
       <Link to='/' className="font-Nothing cursor-pointer">
         {siteTitle}
       </Link>
-        <p>
-        {typeof window}
-        {typeof window !== 'undefined' && darkMode}
-        {darkMode}
-        </p>
         {
           typeof window !== 'undefined' && darkMode
           ? <img
