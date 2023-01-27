@@ -1,0 +1,70 @@
+---
+title: "Google Interview Two Sum"
+date: "January 22, 2023"
+category: "Problem Solving"
+---
+
+## Given an array of integers, return the indices of the two numbers that add up to a given target.
+
+*You should get two different arguments (array of integers, target)*
+
+#### Steps for solving any problem :
+1. Verify the constraints (*ex: are there negative numbers?, are there any duplicate numbers?, will there always be a solution?, What do we return if there's no solution?*).
+2. Write out some test cases while capturing the edge cases.
+3. Figure out a solution without code.
+4. Write out our solution in code.
+
+#### How to approach the problem?
+
+Brute Force Solution: Don't think at first about figuring out the most optimal solution, just try to solve the problem logically first. (*ex: Two pointer solution, where we match the first pointer with every other item using the second pointer till we find a possible solution. (p2 = p1+1)*)
+
+#### Brute Force Solution
+
+``` js
+function twoSum(nums, target){
+	if (nums.length === 1) return null;
+	for (let p1 = 0; p1 < nums.length; p1++){
+		const numToFind = target - nums[p1]
+		
+		for (let p2 = p1+1; p2 < nums.length; p2++){
+			if (numToFind === nums[p2]) return [p1, p2];
+		}
+	}
+	return null;
+}
+```
+
+### Analyzing Space and Time Complexity (*primary solution*):
+
+Time Complexity | Space Complexity
+-- | --
+O(n^2) | O(1)
+
+### How to Optimize your solution?
+
+You should think of a way to take your multiple iterations and combine them together we could make this possible by using hashmaps or in our case we use Objects in JavaScript.
+
+#### Optimized Solution
+``` JavaScript
+function twoSum(sums, target){
+	const numsMap = {};
+	for (let p = 0; p < nums.length; p++){
+		const currentMapVal = numsMap[nums[p]];
+		if(currentMapVal >= 0){
+			return [currentMapVal, p];
+		} else{
+			const numberToFind = target - nums[p];
+			numsMap[numberToFind] = p;
+		}
+	}
+	return null;
+}
+```
+
+### Analyzing Space and Time Complexity (*Optimal Solution*):
+
+Time Complexity | Space Complexity
+-- | --
+O(n) | O(n)
+
+As you can see, the space complexity went from O(1) to O(n), but the time complexity fell noticeably from O(n2) to O(n), making this a far more efficient approach. Here, we can compare the two methods' performance on the leetcode platform.

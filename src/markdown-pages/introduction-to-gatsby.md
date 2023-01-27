@@ -1,6 +1,7 @@
 ---
 title: "Introduction to Gatsby.js"
 date: "January 20, 2023"
+category: "Web Development"
 ---
 
 ## What is Gatsby ?

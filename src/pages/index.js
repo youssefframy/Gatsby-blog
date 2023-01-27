@@ -9,7 +9,7 @@ export default ({ data }) => (
   <Layout>
     <Seo title="Home" />
     <div className="not-prose min-h-screen mt-12">
-      <div className="flex flex-col justify-start items-start gap-2 mb-4">
+      <div className="flex flex-col justify-start items-start gap-2 mb-6">
         <h1 className="text-3xl">Topics</h1>
         <h4 className="lg:text-xl">{data.allMarkdownRemark.totalCount} Posts</h4>
       </div>
@@ -17,12 +17,13 @@ export default ({ data }) => (
         data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.fields.slug} className="flex flex-col justify-start items-start gap-2 mb-8 lg:mb-16 overflow-auto">
             <Link to={node.fields.slug}>
-              <h3 className="text-2xl md:text-4xl dark:text-mainPurple font-bold cursor-pointer">
+              <h3 className="dark:text-mainWhite hover:underline hover:decoration-mainPurple duration-500 transition-all ease-linear text-2xl md:text-4xl font-bold cursor-pointer mb-2">
                 {node.frontmatter.title}
               </h3>
             </Link>
-            <p className="text-mainGray md:text-lg mb-2">{node.frontmatter.date}</p>
+            <p className="dark:text-mainGray md:text-lg mb-2 font-thin">{node.frontmatter.date}</p>
             <p className="md:text-2xl font-semibold">{node.excerpt}</p>
+            <Link to={node.fields.slug} className="md:text-2xl font-semibold text-mainPurple mt-2">Read more</Link>
           </div>
         ))
       }
@@ -40,6 +41,7 @@ export const query = graphql`
           html
           frontmatter {
             date
+            category
             title
           }
           fields {

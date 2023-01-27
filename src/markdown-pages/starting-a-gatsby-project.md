@@ -1,6 +1,7 @@
 ---
 title: "Starting a Gatsby Project"
 date: "January 20, 2023"
+category: "Web Development"
 ---
 
 ## Setting up Gatsby
