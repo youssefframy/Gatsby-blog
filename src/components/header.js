@@ -5,6 +5,10 @@ const Header = ({ siteTitle }) =>{
   const [darkMode, setDarkMode] = React.useState(typeof window !== 'undefined' && window.localStorage.getItem('theme') === 'dark' ? true : false);
 
   React.useEffect(() => {
+    setDarkMode(window.localStorage.getItem('theme') === 'dark' ? true : false);
+  }, []) ;
+
+  React.useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add('dark');
       window.localStorage.setItem('theme', 'dark');
@@ -14,7 +18,6 @@ const Header = ({ siteTitle }) =>{
     }
   }, [darkMode]);
 
-  console.log(darkMode)
 
   return(
     <header className="flex justify-between items-center pt-4 px-4 md:px-16 lg:px-24 text-3xl md:text-4xl lg:text-5xl font-semibold">

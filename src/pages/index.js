@@ -15,7 +15,7 @@ export default ({ data }) => (
       </div>
       {
         data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id} className="flex flex-col justify-start items-start gap-2 mb-8 lg:mb-16 overflow-auto">
+          <div key={node.fields.slug} className="flex flex-col justify-start items-start gap-2 mb-8 lg:mb-16 overflow-auto">
             <Link to={node.fields.slug}>
               <h3 className="text-2xl md:text-4xl dark:text-mainPurple font-bold cursor-pointer">
                 {node.frontmatter.title}
