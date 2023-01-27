@@ -23,6 +23,7 @@ const Header = ({ siteTitle }) =>{
       <Link to='/' className="font-Nothing cursor-pointer">
         {siteTitle}
       </Link>
+      <p className="hidden">{typeof window}</p>
         {
           typeof window !== 'undefined' && darkMode
           ? <img
