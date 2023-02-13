@@ -26,10 +26,10 @@ const Layout = ({ children }) => {
           {children}
         </main>
         <div className="flex justify-start items-center gap-4 md:gap-6">
-          <a alt="github account" href="https://github.com/youssefframy" target="_blank">
+          <a alt="github account" href="https://github.com/youssefframy" target="_blank" aria-label="Github Account">
             <Icon icon="fa-brands:github-alt" w={32} height={32} className="hover:text-mainPurple cursor-pointer duration-200 transition-all ease-linear"/>
           </a>
-          <a alt="Linkedin profile" href="https://www.linkedin.com/in/youssefframy/" target="_blank">
+          <a alt="Linkedin profile" href="https://www.linkedin.com/in/youssefframy/" target="_blank" aria-label="LinkedIn Profile">
             <Icon icon="la:linkedin-in" w={32} height={32} className="hover:text-mainPurple cursor-pointer duration-200 transition-all ease-linear"/>
           </a>
         </div>

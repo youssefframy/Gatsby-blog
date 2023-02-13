@@ -22,17 +22,21 @@ function Seo({ description, title, children }) {
   return (
     <>
       <title>{defaultTitle ? `${defaultTitle}` : title}</title>
-      <meta name="description" content={metaDescription} />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="utf-8" />
+      <meta lang="en" />
+      <meta name="theme-color" content="class" />
+      <meta name="description" content={`Hey, ${metaDescription}`} />
       <meta property="og:title" content={title} />
-      <meta property="og:description" content={metaDescription} />
+      <meta property="og:description" content={`Hey, ${metaDescription}`} />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
       <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={metaDescription} />
+      <meta name="twitter:description" content={`Hey, ${metaDescription}`} />
       {children}
     </>
   )
 }
 
-export default Seo
+export default Seo;
