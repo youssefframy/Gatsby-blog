@@ -10,8 +10,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Youssef's Blog`,
-    description: `A blog about web development and other stuff by a young, aspiring developer.`,
+    title: `The Dev's Blog`,
+    description: `Welcome to the Dev, a personal brand dedicated to exploring the ever-evolving world of technology and design. Join me, a seasoned frontend developer and design enthusiast, as I delve into the latest trends and best practices in the industry. From in-depth tutorials to thought-provoking articles, this blog is your go-to source for staying ahead of the curve and constantly learning new things. So, come along for the ride and let's grow our knowledge and skills together under the banner of the Dev.`,
     author: `@Y.R`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
