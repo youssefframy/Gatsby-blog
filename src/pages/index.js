@@ -41,7 +41,6 @@ export const query = graphql`
           html
           frontmatter {
             date
-            category
             title
           }
           fields {
