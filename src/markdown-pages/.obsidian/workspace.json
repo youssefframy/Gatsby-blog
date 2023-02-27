@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "starting-a-gatsby-project.md",
+                "file": "gatsby-for-your-next-blog.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "starting-a-gatsby-project.md",
+                "file": "gatsby-for-your-next-blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "starting-a-gatsby-project.md",
+                "file": "gatsby-for-your-next-blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "starting-a-gatsby-project.md"
+                "file": "gatsby-for-your-next-blog.md"
               }
             }
           }
