@@ -21,7 +21,7 @@ code, code > * {
 
 @layer components{
     .container {
-        @apply max-w-none min-h-screen -mt-12 pb-12 prose prose-lg prose-slate 
+        @apply max-w-none min-h-screen pb-12 prose prose-lg prose-slate 
         prose-strong:text-mainPurple prose-strong:font-bold prose-strong:italic
         md:prose-xl lg:prose-2xl dark:prose-invert 
         lg:prose-pre:w-2/3 lg:prose-table:w-1/3 
