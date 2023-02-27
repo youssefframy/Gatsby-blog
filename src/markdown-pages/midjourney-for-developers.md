@@ -1,6 +1,6 @@
 ---
 title: "Midjourney AI Tool for Developers: A Cheat Sheet"
-date: "february 23, 2023"
+date: "2/23/2023"
 ---
 
 # Midjourney AI Tool for Developers: A Cheat Sheet

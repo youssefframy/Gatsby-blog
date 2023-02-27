@@ -1,6 +1,6 @@
 ---
 title: "The Benefits of Using Gatsby for Your Next Blog"
-date: "January 20, 2023"
+date: "1/20/2023"
 ---
 
 # The Benefits of Using Gatsby for Your Next Blog

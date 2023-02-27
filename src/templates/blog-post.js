@@ -7,7 +7,7 @@ export default ({ data }) => {
 
     return (
         <Layout>
-            <article dangerouslySetInnerHTML={{ __html: post.html }} />
+            <article className='mt-12' dangerouslySetInnerHTML={{ __html: post.html }} />
         </Layout>
     );
 }
