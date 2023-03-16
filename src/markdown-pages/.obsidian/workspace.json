@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9ded4d5aa4987d2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aws-for-developers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gatsby-for-your-next-blog.md",
+                "file": "aws-for-developers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gatsby-for-your-next-blog.md",
+                "file": "aws-for-developers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gatsby-for-your-next-blog.md"
+                "file": "aws-for-developers.md"
               }
             }
           }
@@ -146,8 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f59b70003aacae5d",
+  "active": "9ded4d5aa4987d2e",
   "lastOpenFiles": [
+    "gatsby-for-your-next-blog.md",
+    "aws-for-developers.md",
     "introduction-to-gatsby.md",
     "google-interview-two-sum-easy.md",
     "container-with-the-most-water.md"
