@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 
 export default ({ data }) => (
   <Layout>
-    <Seo title="Homepage" />
+    <Seo title="Homepage" description="Passionate Developer Blog Post"/>
     <div className="not-prose min-h-screen mt-12">
       <div className="flex flex-col justify-start items-start gap-2 mb-6">
         <h1 className="text-3xl">Topics</h1>
