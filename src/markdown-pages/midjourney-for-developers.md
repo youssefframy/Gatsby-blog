@@ -3,7 +3,7 @@ title: "Midjourney AI Tool for Developers: A Cheat Sheet"
 date: "2/23/2023"
 ---
 
-# Midjourney AI Tool for Developers: A Cheat Sheet
+# Midjourney for developers
 
 Midjourney is an AI-powered tool that generates images and videos based on user prompts. It's a fantastic tool for developers who want to add unique visuals to their projects without spending hours creating them from scratch. With Midjourney, you can quickly generate images that match your project's theme or add a creative twist to your website or app. Here's a cheat sheet of essential Midjourney parameters and commands to help you get started.
 

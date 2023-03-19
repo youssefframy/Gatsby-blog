@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "solid-principles-cheat-sheet.md",
+                "file": "aws-for-developers.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "solid-principles-cheat-sheet.md",
+                "file": "aws-for-developers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "solid-principles-cheat-sheet.md",
+                "file": "aws-for-developers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "solid-principles-cheat-sheet.md"
+                "file": "aws-for-developers.md"
               }
             }
           }
@@ -173,10 +173,11 @@
   },
   "active": "2453e47634f9bb53",
   "lastOpenFiles": [
+    "gatsby-for-your-next-blog.md",
+    "midjourney-for-developers.md",
     "nextjs-for-your-next-side-project.md",
     "solid-principles-cheat-sheet.md",
     "aws-for-developers.md",
-    "gatsby-for-your-next-blog.md",
     "introduction-to-gatsby.md",
     "google-interview-two-sum-easy.md",
     "container-with-the-most-water.md"

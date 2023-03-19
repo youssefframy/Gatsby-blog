@@ -2,7 +2,7 @@
 title: "SOLID Principles Made Easy: A Cheat Sheet for Busy Developers"
 date: "3/19/2023"
 ---
-# SOLID Principles Made Easy: A Cheat Sheet for Busy Developers
+# SOLID Principles
 
 SOLID principles are a set of five design principles that were introduced by Robert C. Martin (also known as Uncle Bob) in his book "Agile Software Development, Principles, Patterns, and Practices". These principles help software developers create code that is easy to maintain, extend and modify.
 
