@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "dc98ed2e8c57d764",
+        "id": "da5b31159f021a2c",
         "type": "tabs",
         "children": [
           {
-            "id": "f59b70003aacae5d",
+            "id": "a21998a583d5d49a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gatsby-for-your-next-blog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ded4d5aa4987d2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "aws-for-developers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2453e47634f9bb53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "aws-for-developers.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws-for-developers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws-for-developers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "aws-for-developers.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,13 +138,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2453e47634f9bb53",
+  "active": "a21998a583d5d49a",
   "lastOpenFiles": [
     "gatsby-for-your-next-blog.md",
+    "aws-for-developers.md",
     "midjourney-for-developers.md",
     "nextjs-for-your-next-side-project.md",
     "solid-principles-cheat-sheet.md",
-    "aws-for-developers.md",
     "introduction-to-gatsby.md",
     "google-interview-two-sum-easy.md",
     "container-with-the-most-water.md"
