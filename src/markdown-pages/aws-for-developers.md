@@ -1,9 +1,9 @@
 ---
-title: Why Becoming a Certified Cloud Practitioner Will Help You as a Developer"
+title: "Why Becoming a Certified Cloud Practitioner Will Help You as a Developer"
 date: "3/16/2023"
 ---
 
-# AWS for developers
+# Why Becoming a Certified Cloud Practitioner Will Help You as a Developer
 
 As a developer, it's essential to stay up to date with the latest technologies and trends in the industry. One such trend that has taken the world by storm is cloud computing. Cloud computing has revolutionized the way businesses operate, providing them with more flexibility, scalability, and security than ever before. As a result, many companies are moving their operations to the cloud, creating a huge demand for skilled cloud practitioners.
 

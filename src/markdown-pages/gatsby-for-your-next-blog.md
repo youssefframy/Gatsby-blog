@@ -3,7 +3,7 @@ title: "The Benefits of Using Gatsby for Your Next Blog"
 date: "1/20/2023"
 ---
 
-# Gatsby.js Introduction
+# The Benefits of Using Gatsby for Your Next Blog
 
 If you're looking to build a new blog, you might want to consider using Gatsby.js. Gatsby is a React-based framework that combines some of the best React ecosystem libraries into one bundle. It's fast, easy to use, and comes with a number of benefits that make it a great choice for building blogs.
 

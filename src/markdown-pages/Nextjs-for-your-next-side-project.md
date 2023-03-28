@@ -3,7 +3,7 @@ title: "Boost Your Freelance Hustle with Next.js: Why This Framework is Perfect 
 date: "3/1/2023"
 ---
 
-# Next.js Introduction
+# Boost Your Freelance Hustle with Next.js: Why This Framework is Perfect for Your Next Side Project
 
 Next.js is a React framework designed for production. React is a powerful library that requires a lot of dependencies for implementing big projects, such as routing and SEO. Next.js, on the other hand, combines the best React ecosystem libraries into one bundle, making it easier to build feature-rich web applications quickly.
 
