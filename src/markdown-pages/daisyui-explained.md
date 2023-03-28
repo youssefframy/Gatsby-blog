@@ -16,7 +16,6 @@ Before we dive into the tradeoffs, let's first review the advantages of using Da
 2.  **Consistency and Reusability:** DaisyUI provides a consistent and reusable set of components and styles, ensuring a cohesive look and feel throughout your application. This also means that you can reuse the same components across multiple projects, saving even more time.
     
 3.  **Responsive Design:** DaisyUI's components and styles are designed to be responsive out-of-the-box, which means that your application will look great on all screen sizes and devices.
-    
 
 ## The Tradeoffs of DaisyUI
 
@@ -39,5 +38,34 @@ Despite these tradeoffs, we believe that it's better to use DaisyUI with Tailwin
     
 3.  **Community Support:** Both DaisyUI and TailwindCSS have active and supportive communities, which means that you can get help and support when you need it. This can be invaluable when you're working on a tight deadline or facing a challenging problem.
     
+
+## Installation Guide
+
+Use your favourite package manager
+
+```cmd
+yarn add daisyui
+npm i daisyui
+```
+
+Add daisyui to the plugins object in the TailwindConfig file
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("daisyui")],
+  
+  // daisyUI config (optional)
+  daisyui: {
+    themes: false,
+  },
+}
+```
 
 In conclusion, while there are tradeoffs to consider when using DaisyUI in your development process, I believe that the advantages outweigh the disadvantages. By using DaisyUI with TailwindCSS, you can improve your development time, consistency, and responsiveness while still having the flexibility to customize and create your own components.
